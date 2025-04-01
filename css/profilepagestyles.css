@@ -1,0 +1,63 @@
+
+img {
+    border-radius: 75px;
+}
+
+h2 {
+    font-size: 18px
+}
+body {
+    background-color: slateblue;
+    font-family: Trebuchet MS;
+    color: white;
+    text-align: center;
+}
+a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: slateblue  ;
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid slateblue;
+    margin: 10px;;
+}
+select {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid slateblue;
+    margin: 10px;
+    text-align: center;
+}
+button {
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ol {
+    text-align: left;
+}
+.listHeader {
+    text-align: left;
+}
+.learning {
+    font-style: italic;
+}
+.current {
+    font-weight: bold;
+}

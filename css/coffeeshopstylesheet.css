@@ -1,0 +1,42 @@
+.coffeeimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+body {
+    background-color: #6A5ACD;
+    text-align: center;
+    font-family: Trebuchet MS;
+    color: #FFFFFF;
+}
+.titlelogo {
+    font-weight: bold;
+}
+.menu {
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.food {
+    background-color: #928ddf;
+}
+.drinks {
+    background-color: #afadea;
+}
+.foodimg {
+    height: 50%;
+    width: 20%;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+.menulist{
+    float: left;
+}
+.menutitle{
+    font-weight: bold;
+    float: left;
+}

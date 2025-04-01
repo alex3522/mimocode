@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title> Unit Converter </title>
+        <link href="../css/profilepagestyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Unit Converter</h2>
+        <p>Convert between miles and kilometers, feet and meters</p>
+        <p>Enter a value and select a conversion</p>
+        <input type="number" id="value" name="value" placeholder="value">
+        <br>
+        <select id="conversion" name="conversion">
+            <option value="miles">Miles to km</option>
+            <option value="km">Km to Miles</option>
+            <option value="feet">Feet to m</option>
+            <option value="meters">M to feet</option>
+        </select>
+        <br>
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+        </div>
+        <script src="../javascript/unitConverter.js"></script>
+    </body>
