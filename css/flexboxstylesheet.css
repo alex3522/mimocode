@@ -1,0 +1,18 @@
+body {
+    background-color: #6A5ACD;
+    font-family: Trebuchet MS;
+    color: #FFFFFF;
+    text-align: center;
+}
+.container {
+    border: solid 1px #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    align-items: flex-end;
+}
+.item1, .item2, .item3, .item4 {
+    border: solid 1px #FFFFFF;
+    margin: 10px;
+}
