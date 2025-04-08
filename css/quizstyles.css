@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS';
+    background-color: slateblue;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "title quiz quiz"
+        "title quiz quiz"
+        "score quiz quiz";
+    gap: 10px;
+}
+.item-title {
+    grid-area: title;
+}
+.quiz {
+    grid-area: quiz;
+}
+.item-score {
+    grid-area: score;
+}
+input {
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    padding: 8px 0;
+    margin: 8px 8px 8px 0;
+    font-weight: bold;;
+    background: transparent;
+    color: white;
+}
+label {
+    font-weight: bold;
+}

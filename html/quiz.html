@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>Book quiz</title>
+        <link href="../css/quizstyles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="item-title">
+                <h2>Book quiz</h2>
+                <p>Answer the questions below to test your knowledge of books.</p>
+            </div>
+            <div class="quiz" onsubmit="return false;">
+                <form>
+                    <label for="question1">1. Who wrote the Foundation series?</label><br>
+                    <input type="text" id="question1" name="question1"><br>
+                    <label for="question2">2. What is the first book in Hilary Mantells Tudor series?</label><br>
+                    <input type="text" id="question2" name="question2"><br>
+                    <label for="question3">3. Who wrote the Remeberance of Earths Past series?</label><br>
+                    <input type="text" id="question3" name="question3"><br>
+                    <label for="question4">4. What is the second book in that series?</label><br>
+                    <input type="text" id="question4" name="question4"><br>
+                    <label for="question5">5. Who wrote Never Let Me Go?</label><br>
+                    <input type="text" id="question5" name="question5"><br>
+                    <label for="submit">Submit</label><br>
+                    <button onClick="getAnswers()">Submit</button>
+                </form>
+            </div>
+            <div class="item-score">
+                <p id="score"></p>
+            </div>
+        </div>
+    <script src="../javascript/sorterandquiz.js"></script>   
+    </body>
